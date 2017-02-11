@@ -4,7 +4,7 @@ Java Basics - First Java Application
 > Java is a general-purpose computer programming language that is concurrent,
 > class-based, object-oriented, and specifically designed to have as few
 > implementation dependencies as possible.
-> - [Wikipedia](https%3A//en.wikipedia.org/wiki/Java_%28programming_language%29)
+> - [Wikipedia](https://en.wikipedia.org/wiki/Java_%28programming_language%29)
 
 Setup
 -----
