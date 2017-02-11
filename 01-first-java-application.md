@@ -32,4 +32,35 @@ standard notepad in windows, but there are Integrated Development Environments
 [emacs](https://www.gnu.org/software/emacs/), [vim](http://vim.org/) or any
 other editor that can edit text-files.
 
+Hello world
+-----------
 
+The first program in every language is usually a `hello world`-application. It
+just prints out the message `hello world`. So, let's start wil the simpliest
+`hello world` in java. Create a file with the name `HelloWorld.java`, and put
+the following contents in there (using any editor).
+
+``` java
+class HelloWorld {
+
+  public static void main(String[] args) {
+    System.out.println("Hello world");
+  }
+
+}
+```
+
+So this is the source-code for the application. This first needs to be compiled
+and then it can be executed.  
+Java does not compile a standalone program, that would run on any machine, Java
+uses a runtime that interprets the compiled Program. So here's what you need to
+call:
+
+``` sh
+javac HelloWorld.java
+java HelloWorld
+```
+
+This is how the outcome should look like:
+
+![`hello world`](hello-world.png)
